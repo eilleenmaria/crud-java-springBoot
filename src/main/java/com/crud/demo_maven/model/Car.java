@@ -2,6 +2,7 @@ package com.crud.demo_maven.model;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
 @NoArgsConstructor
 public @Data class Car {
     private String CarId;

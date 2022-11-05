@@ -20,11 +20,7 @@ public class CarService {
     }
     public Car get(String carId){
         return carRepository.get(carId);
-    }
-    public Car getBrand(String brand){
-        return carRepository.get(brand);
-    }
-    
+    }    
     public Car addCar(Car car){
       car.setCarId(null);
       return carRepository.save(car); 
